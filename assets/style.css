@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 25px 100px;
+}
+.header__logo {
+  width: 80px;
+  height: 80px;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__list-item:not(:last-child) {
+  padding-right: 40px;
+}
+.main-wrapper {
+  padding: 80px 250px;
+}
+.footer {
+  padding: 200px 250px;
+}
+.footer__text {
+  font-size: 22px;
+}
+.index__main-section {
+  padding: 200px 300px;
+}
+.index__main-section__title {
+  font-size: 100px;
+  margin: 0px 0px 10px;
+}
+.index__main-section__text {
+  font-size: 30px;
+}
+.index__main-section__btn {
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 22px;
+  background-color: black;
+}
+.btn-ref_to_about-project {
+  color: white;
+}
+
+.about-page__title {
+  margin: 0px 0px 30px;
+  font-size: 80px;
+}
+
+.films-selection_section {
+  padding: 50px 0px;
+}
+
+.films-selection__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px 0px 35px;
+}
+
+.poster {
+  display: inline-block;
+  margin-right: 60px;
+}
+.poster-photo {
+  width: 300px;
+  height: 414px;
+  border-radius: 40px;
+}
+.poster__film-name {
+  margin: 15px 0px;
+  font-size: 25px;
+}
+.poster-film_info {
+  margin: 0;
+  font-size: 20px;
+  color: grey;
+}
+
+.actors-selection_section {
+  padding: 50px 0px;
+}
+.actors-selection__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px 0px 35px;
+}
+
+.actor-card__photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 500px;
+}
+
+.actor-card {
+  padding-top: 80px;
+  display: flex;
+}
+
+.actor-card__name {
+  width: 100%;
+  font-size: 45px;
+  margin: 0;
+}
+
+.actor-card__text-wrapper {
+  margin: 0px 25px;
+}
+.actor-card__description {
+  font-size: 25px;
+  color: grey;
+}
+.actor-card__filmography-title {
+  font-size: 25px;
+}
+
+.actor-card__filmography {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  border-collapse: separate;
+}
+.actor-card__filmography th {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background: #ededed;
+  font-size: 25px;
+  border-top: 1px solid #ddd;
+}
+.actor-card__filmography tr th:first-child,
+.table tr td:first-child {
+  border-left: 1px solid #ddd;
+}
+.actor-card__filmography tr th:last-child,
+.table tr td:last-child {
+  border-right: 1px solid #ddd;
+}
+.actor-card__filmography thead tr th:first-child {
+  border-radius: 20px 0 0 0;
+}
+.actor-card__filmography thead tr th:last-child {
+  border-radius: 0 20px 0 0;
+}
+.actor-card__filmography tbody td {
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  font-size: 25px;
+  vertical-align: top;
+}
+.actor-card__filmography tbody tr:nth-child(even) {
+  background: #f8f8f8;
+}
+.actor-card__filmography tbody tr:last-child td {
+  border-bottom: 1px solid #ddd;
+}
+.actor-card__filmography tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 20px;
+}
+.actor-card__filmography tbody tr:last-child td:last-child {
+  border-radius: 0 0 20px 0;
+}
+
+.news_section {
+  padding: 50px 0px;
+}
+.news_section__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px 0px 35px;
+}
+.news-section__article {
+  background-color: rgb(37, 37, 37);
+  border-radius: 80px;
+}
+.artcle__text-wrapper {
+  padding: 59px;
+}
+.article__title {
+  color: white;
+  font-size: 25px;
+}
+.article__text {
+  font-size: 20px;
+  color: white;
+  line-height: 26px;
+}
+
+.add_news-form {
+  padding-top: 100px;
+}
+
+.add-news__title {
+  font-size: 35px;
+  margin: 15px 0px;
+}
+.add-news__subtitle {
+  font-size: 25px;
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+.form-add-news {
+  padding-top: 60px;
+}
+
+textarea {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  width: 60%;
+  resize: none;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid rgb(224, 224, 224);
+  height: 150px;
+}
+
+.form-input {
+  border-radius: 15px;
+  border: 2px solid #eee;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  display: block;
+  margin-bottom: 15px;
+}
+.form-btn {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  width: 200px;
+  color: white;
+  background-color: black;
+  border: 0;
+}
+
+.about-project_article{
+  padding: 50px 0px;
+}
+.main__title {
+  font-size: 100px;
+  margin: 0px 0px 10px;
+}
+.main__text {
+  width: 60%;
+  font-size: 22px;
+}

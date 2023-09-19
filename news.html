@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/2460/2460029.png"
+        alt="Логотип Cinemapoisk"
+        class="header__logo"
+      />
+      <nav class="header__navigation">
+        <ul class="header__list">
+          <li class="header__list-item"><a href="index.html">Главная</a></li>
+
+          <li class="header__list-item">
+            <a href="films_selecton.html">Подборки</a>
+          </li>
+          <li class="header__list-item"><a href="actors.html">Актеры</a></li>
+          <li class="header__list-item"><a href="news.html">Новости</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-wrapper">
+      <section class="about-page">
+        <h1 class="about-page__title">Новости кино</h1>
+      </section>
+      <section class="news_section">
+        <h3 class="news_section__title">Самые последние новости</h3>
+        <article class="news-section__article">
+          <div class="artcle__text-wrapper">
+            <h3 class="article__title">
+              Фильм "Барби" обогнал "Мстителей" в домашнем прокате
+            </h3>
+            <p class="article__text">
+              Фильм "Барби" продолжает бить рекорды в кассовых сборах почти
+              через два месяца после выхода на больших экранах. В настоящее
+              время "Барби" является самым кассовым фильмом 2023 года и самым
+              успешным кинопроектом студии Warner Bros. за все время. Теперь же
+              кинолента режиссера Греты Гервиг также добилась того, чего никогда
+              не удавалось многим злодеям Марвел - победы над Мстителями.<br /><br />
+              "Барби" превзошла фильм "Мстители" 2012 года в американском
+              прокате. Домашние кассовые сборы картины превысили 626 122
+              долларов. "Мстители" в свое время заработали 623 357 долларов на
+              американском рынке и 1 520 538 536 долларов по всему миру. То есть
+              "Барби" еще предстоит немного поработать, чтобы превзойти его в
+              общем зачете.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="add_news-form">
+        <h3 class="add-news__title">
+          Знаешь новости и хочешь ими поделиться ?
+        </h3>
+        <p class="add-news__subtitle">
+          заполняй форму и мы рассмотрим твою новость
+        </p>
+
+        <form action="" class="form-add-news">
+          <input
+            type="text"
+            placeholder="Напиши свое имя тут"
+            class="form-input"
+          />
+          <input type="text" placeholder="Заголовок тут" class="form-input" />
+          <textarea placeholder="Cвою новость здесь"></textarea>
+          <button type="submit" class="form-btn">Отправить</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">а пока что все...</p>
+    </footer>
+  </body>
+</html>
